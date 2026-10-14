@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jejak Sang Teladan – Fathu Makkah &amp; Haji Wada</title>
+<style>
+:root{--bg:#f2f8ff;--card:#ffffff;--ink:#12263f;--mut:#566a82;--pri:#1b7fd1;--pri2:#0f2d5c;--acc:#f2b632;--ok:#17825a;--bad:#c93a3a;--soft:#e0f0fd;--bd:#c6dff3;--okbg:#dcf5e9;--badbg:#fde3e3;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);font-size:17px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0c1829;--card:#13263d;--ink:#eaf2fb;--mut:#a3b6cc;--pri:#5db2f7;--pri2:#bcd9f7;--acc:#f2c25a;--ok:#55cc92;--bad:#ff8080;--soft:#1a3553;--bd:#2a4a6e;--okbg:#14382b;--badbg:#42201f;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0c1829;--card:#13263d;--ink:#eaf2fb;--mut:#a3b6cc;--pri:#5db2f7;--pri2:#bcd9f7;--acc:#f2c25a;--ok:#55cc92;--bad:#ff8080;--soft:#1a3553;--bd:#2a4a6e;--okbg:#14382b;--badbg:#42201f;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Trebuchet MS","Segoe UI",Verdana,Arial,sans-serif;line-height:1.55}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--pri2);color:#fff;padding:.5rem .8rem}
+:root[data-theme="dark"] header,:root:not([data-theme="light"]) header{}
+.hrow{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap}
+.brand{font-weight:800;flex:1;min-width:140px}
+.chip{background:rgba(255,255,255,.18);border-radius:99px;padding:.15rem .7rem;font-size:.85rem;white-space:nowrap}
+header button{background:rgba(255,255,255,.2);color:#fff;border:0;border-radius:10px;padding:.3rem .6rem;font:inherit;font-size:.85rem;cursor:pointer}
+.bar{height:8px;background:rgba(255,255,255,.25);border-radius:9px;margin-top:.4rem;overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--acc);transition:width .4s}
+main{max-width:860px;margin:0 auto;padding:1rem .9rem 5.5rem}
+h1,h2,h3{line-height:1.2;margin:.2rem 0 .6rem}
+h2{color:var(--pri)}
+.card{background:var(--card);border:2px solid var(--bd);border-radius:18px;padding:1rem;margin:.8rem 0;box-shadow:0 3px 0 var(--bd)}
+.tag{display:inline-block;background:var(--soft);color:var(--pri);border-radius:99px;padding:.1rem .7rem;font-size:.8rem;font-weight:700}
+.mut{color:var(--mut);font-size:.92rem}
+button.btn{background:var(--pri);color:#fff;border:0;border-radius:14px;padding:.7rem 1.2rem;font:inherit;font-weight:700;cursor:pointer;min-height:46px;box-shadow:0 3px 0 rgba(0,0,0,.25)}
+button.btn.alt{background:var(--card);color:var(--pri);border:2px solid var(--pri);box-shadow:none}
+button.btn.gold{background:var(--acc);color:#2a1d00}
+button.btn:disabled{opacity:.45;cursor:not-allowed}
+button.btn:active{transform:translateY(2px)}
+.hero{text-align:center;padding:1rem .5rem}
+.mascot{font-size:4.5rem;animation:bob 2.4s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-10px)}}
+.sky{background:linear-gradient(180deg,#1b7fd1,#7cc4f5);color:#fff;border-radius:22px;padding:1.2rem}
+.sky h1{font-size:1.9rem}
+.opts{display:grid;gap:.5rem}
+.opt{display:block;width:100%;text-align:left;background:var(--card);color:var(--ink);border:2px solid var(--bd);border-radius:14px;padding:.7rem .9rem;font:inherit;cursor:pointer;min-height:46px}
+.opt:hover{border-color:var(--pri)}
+.opt.sel{border-color:var(--pri);background:var(--soft)}
+.opt.ok{border-color:var(--ok);background:var(--okbg)}
+.opt.bad{border-color:var(--bad);background:var(--badbg)}
+.opt.done{opacity:.55;pointer-events:none}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:.6rem}
+.tile{background:var(--soft);color:var(--ink);border:2px solid var(--bd);border-radius:16px;padding:.8rem;font:inherit;text-align:left;cursor:pointer;min-height:90px}
+.tile .ic{font-size:1.8rem;display:block}
+.tile .d{display:block;margin-top:.3rem;font-size:.92rem;color:var(--ink)}
+.tile.open{background:var(--okbg);border-color:var(--ok)}
+.fb{border-radius:14px;padding:.7rem .9rem;margin:.6rem 0;font-weight:600}
+.fb.ok{background:var(--okbg);color:var(--ok)}
+.fb.bad{background:var(--badbg);color:var(--bad)}
+.fb.info{background:var(--soft);color:var(--ink)}
+.fb small{display:block;font-weight:400;color:var(--ink);margin-top:.2rem}
+.hb{background:none;border:0;color:var(--pri);font:inherit;text-decoration:underline;cursor:pointer;padding:.2rem 0}
+.hint{background:var(--soft);border-left:5px solid var(--acc);border-radius:10px;padding:.5rem .8rem;margin:.3rem 0}
+.row{display:flex;gap:.6rem;flex-wrap:wrap;align-items:center}
+.dots{display:flex;gap:6px;justify-content:center;margin:.6rem 0}
+.dots i{width:12px;height:12px;border-radius:50%;background:var(--bd)}
+.dots i.on{background:var(--pri)}.dots i.cur{background:var(--acc);transform:scale(1.3)}
+.slot{display:flex;gap:.5rem;align-items:center;background:var(--soft);border:2px dashed var(--bd);border-radius:12px;padding:.5rem .7rem;margin:.3rem 0;min-height:44px}
+.slot b{background:var(--pri);color:#fff;border-radius:50%;width:26px;height:26px;display:inline-flex;align-items:center;justify-content:center;flex:none}
+.buckets{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin:.6rem 0}
+.bucket{border:3px dashed var(--bd);border-radius:16px;padding:1rem .5rem;text-align:center;font-weight:700;background:var(--soft);color:var(--ink);font-family:inherit;font-size:1rem;cursor:pointer;min-height:90px}
+.bucket.over{border-color:var(--pri);background:var(--card)}
+.dragc{background:var(--acc);color:#2a1d00;border-radius:18px;padding:1.1rem;font-weight:700;text-align:center;cursor:grab;font-size:1.05rem;user-select:none}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:.6rem}
+select,input[type=text],textarea{font:inherit;background:var(--card);color:var(--ink);border:2px solid var(--bd);border-radius:10px;padding:.4rem .6rem;max-width:100%}
+textarea{width:100%;min-height:80px}
+select.ok,input.ok{border-color:var(--ok);background:var(--okbg)}select.bad,input.bad{border-color:var(--bad);background:var(--badbg)}
+.cloze p{margin:.7rem 0;line-height:2.2}
+table{border-collapse:collapse;width:100%;font-size:.9rem}
+th,td{border:1px solid var(--bd);padding:.35rem .5rem;text-align:left;vertical-align:top}
+th{background:var(--soft)}
+.wrap{overflow-x:auto}
+.quote{border-left:5px solid var(--acc);background:var(--soft);padding:.6rem .9rem;border-radius:10px;font-style:italic}
+.badges{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:.5rem}
+.bd{text-align:center;border:2px solid var(--bd);border-radius:14px;padding:.6rem;background:var(--card);opacity:.35;filter:grayscale(1)}
+.bd.on{opacity:1;filter:none;border-color:var(--acc);background:var(--soft)}
+.bd .e{font-size:2rem;display:block}
+nav#nav{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:2px solid var(--bd);padding:.5rem .8rem calc(.5rem + env(safe-area-inset-bottom,0px));display:flex;gap:.6rem;justify-content:space-between;align-items:center;z-index:20}
+#navt{flex:1;text-align:center;font-size:.85rem;color:var(--mut)}
+#toast{position:fixed;left:50%;top:calc(70px + env(safe-area-inset-top,0px));transform:translate(-50%,-30px);background:var(--acc);color:#2a1d00;font-weight:800;padding:.5rem 1.1rem;border-radius:99px;opacity:0;transition:.35s;z-index:50;pointer-events:none}
+#toast.show{opacity:1;transform:translate(-50%,0)}
+#tm{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:60;display:flex;align-items:flex-start;justify-content:center;padding:calc(1rem + env(safe-area-inset-top,0px)) .6rem 1rem;overflow:auto}
+#tm[hidden]{display:none}
+.modal{background:var(--card);color:var(--ink);border-radius:18px;max-width:920px;width:100%;padding:1rem}
+.tabs{display:flex;gap:.4rem;flex-wrap:wrap;margin:.5rem 0}
+.tabs button{border:2px solid var(--pri);background:var(--card);color:var(--pri);border-radius:99px;padding:.3rem .9rem;font:inherit;cursor:pointer}
+.tabs button.on{background:var(--pri);color:#fff}
+.tp{display:none}.tp.on{display:block}
+.tp h3{color:var(--pri);margin-top:1rem}
+.tp ul{padding-left:1.2rem;margin:.3rem 0}
+@media (max-width:520px){.two,.buckets{grid-template-columns:1fr}.sky h1{font-size:1.5rem}}
+@media print{header,nav,#toast{display:none}}
+</style>
+</head>
+<body>
+<header>
+  <div class="hrow">
+    <span class="brand">🕌 Jejak Sang Teladan</span>
+    <span class="chip" id="hpts">⭐ 0</span>
+    <span class="chip" id="hlv">🔍 Pengamat Cilik</span>
+    <button id="fs-" aria-label="Perkecil huruf">A−</button><button id="fs+" aria-label="Perbesar huruf">A+</button>
+    <button id="tbtn">👩‍🏫 Guru</button>
+  </div>
+  <div class="bar"><i id="pbar"></i></div>
+</header>
+<main id="stage"></main>
+<nav id="nav">
+  <button class="btn alt" id="prev">◀ Kembali</button>
+  <span id="navt"></span>
+  <button class="btn" id="next">Lanjut ▶</button>
+</nav>
+<div id="toast" role="status" aria-live="polite"></div>
+<div id="tm" hidden><div class="modal" role="dialog" aria-label="Panduan Guru"><div class="row" style="justify-content:space-between"><h2 style="margin:0">👩‍🏫 Panduan &amp; Perangkat Guru</h2><button class="btn alt" id="tclose">Tutup ✕</button></div><div id="tbody"></div></div></div>
+
+<script>
+const $=(s,r=document)=>r.querySelector(s);
+const sh=a=>a.map(x=>[Math.random(),x]).sort((p,q)=>p[0]-q[0]).map(x=>x[1]);
+const norm=s=>String(s).toLowerCase().replace(/[’'`\-\s\.]/g,'');
+const S={name:'',mode:'reg',pts:0,badges:[],i:0,done:{},board:[],qz:null,journal:'',saved:false};
+const LEVELS=[[0,'Pengamat Cilik','🔍'],[40,'Penjelajah Sejarah','🧭'],[100,'Pejuang Cilik','🛡️'],[170,'Duta Damai','🕊️'],[240,'Teladan Sejati','🌟']];
+const BADGES={mulai:['🚀','Siap Berangkat','Mulai petualangan'],sejarah:['🧭','Penjelajah Sejarah','Menyelesaikan Misi 1'],urut:['🧩','Ahli Urutan','Urutan peristiwa benar'],akhlak:['💎','Pemilah Akhlak','Memilah perilaku mulia'],arafah:['⛰️','Penjaga Pesan','Membuka 7 pesan Arafah'],hikmah:['🔗','Pemburu Hikmah','Mencocokkan 6 nilai'],aksi:['🕊️','Duta Damai','Memilih sikap terpuji'],cerdas:['🏅','Cerdas Sejarah','Kuis ≥ 75'],kritis:['🧠','Pemikir Kritis','Semua soal HOTS benar'],refleks:['💭','Hati Reflektif','Mengisi jurnal belajar']};
+function lvl(){let l=LEVELS[0];LEVELS.forEach(x=>{if(S.pts>=x[0])l=x});return l}
+function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('show');clearTimeout(toast.t);toast.t=setTimeout(()=>t.classList.remove('show'),1800)}
+function upd(){$('#hpts').textContent='⭐ '+S.pts;const l=lvl();$('#hlv').textContent=l[2]+' '+l[1];$('#pbar').style.width=(S.i/(SCR.length-1)*100)+'%'}
+function award(k,p,msg){if(S.done[k])return false;S.done[k]=1;S.pts+=p;toast('+'+p+' poin! '+(msg||''));upd();return true}
+function badge(id){if(S.badges.includes(id))return;S.badges.push(id);setTimeout(()=>toast('🏅 Lencana baru: '+BADGES[id][1]),1900)}
+const hint=t=>S.mode==='bim'?`<button class="hb" type="button">💡 Butuh petunjuk?</button><div class="hint" hidden>${t}</div>`:'';
+document.addEventListener('click',e=>{if(e.target.classList.contains('hb')){const n=e.target.nextElementSibling;n.hidden=!n.hidden}});
+
+function grid(root,items,key,pts,badgeId){
+  root.innerHTML=items.map((x,i)=>`<button class="tile" type="button" data-i="${i}"><span class="ic">${x.ic}</span><b>${x.t}</b><span class="d" hidden>${x.d}</span></button>`).join('');
+  const seen=new Set();
+  root.querySelectorAll('.tile').forEach(b=>b.onclick=()=>{b.querySelector('.d').hidden=false;b.classList.add('open');seen.add(b.dataset.i);
+    if(seen.size===items.length){if(award(key,pts,'Semua terbuka!')&&badgeId)badge(badgeId)}});
+}
+
+/* ===== DATA ===== */
+const STEPS=[
+{ic:'📜',t:'Perjanjian Hudaibiyah (tahun ke-6 H)',d:'Rasulullah dan sahabat dari Madinah hendak berhaji, tetapi dihadang Kaum Quraisy di Hudaibiyah. Usman bin Affan diutus menjelaskan tujuan mereka, namun tetap tidak diizinkan masuk. Lahirlah Perjanjian Hudaibiyah, yaitu perjanjian damai.',m:'Sabar dan mengutamakan damai'},
+{ic:'💔',t:'Janji Dilanggar',d:'Tidak lama kemudian, Kaum Quraisy membantu Bani Bakr menyerang Suku Khuza’ah sampai ada korban jiwa. Ini melanggar perjanjian. Suku Khuza’ah mengadu kepada Rasulullah.',m:'Janji harus ditepati'},
+{ic:'🤝',t:'Jalan Damai Dulu',d:'Rasulullah mengirim utusan dan memberi tiga pilihan: (1) hentikan peperangan dengan Khuza’ah, (2) ganti kerugian korban, (3) batalkan Perjanjian Hudaibiyah. Kaum Quraisy memilih membatalkan perjanjian.',m:'Menyelesaikan masalah secara damai'},
+{ic:'🐪',t:'Pasukan Bersiap',d:'Sekitar 10.000 sahabat berkumpul dan siap berangkat ke Makkah. Hatib bin Abi Baltha’ah membocorkan kabar ini kepada keluarganya, tetapi Rasulullah memaafkannya.',m:'Lembut dan pemaaf'},
+{ic:'🧭',t:'Dari Empat Penjuru',d:'Pasukan dibagi empat: utara, selatan, barat, dan timur. Mereka masuk dengan kompak sambil bertakbir dan bertahmid. Rasulullah tidak berniat memerangi; beliau hanya memberi peringatan dan menunjukkan Islam di Madinah berkembang pesat.',m:'Tegas tanpa kekerasan'},
+{ic:'🕊️',t:'Masuk dengan Damai',d:'Rombongan masuk dengan tenang, tidak merusak apa pun, termasuk rumah penduduk. Abu Sufyan, tokoh Quraisy, masuk Islam. Rasulullah mengumumkan, “Barang siapa masuk rumah Abu Sufyan, maka akan aman.”',m:'Menghormati penduduk'},
+{ic:'🕋',t:'Di Kakbah',d:'Rasulullah dan sahabat bertawaf. Patung-patung di sekeliling Kakbah dibersihkan. Bilal bin Rabah naik ke puncak Kakbah dan mengumandangkan azan, azan pertama di Makkah.',m:'Menghormati tempat ibadah'},
+{ic:'🌟',t:'Berbondong-bondong Masuk Islam',d:'Karena Makkah terbuka dengan aman dan damai, ribuan orang berbondong-bondong masuk Islam. Peristiwa ini dikisahkan dalam Q.S. an-Nasr/110: 1–3. <br><b>Fathu Makkah = terbukanya kota Makkah bagi kaum muslimin, tanpa pertikaian dan peperangan.</b>',m:'Akhlak mulia menarik hati'}];
+const HUD=[{ic:'1️⃣',t:'Umrah ditunda',d:'Pengikut Nabi tidak boleh umrah tahun ini, boleh tahun depan, paling lama tiga hari.'},{ic:'2️⃣',t:'Damai 10 tahun',d:'Menghentikan permusuhan dan tidak saling menyerang selama 10 tahun.'},{ic:'3️⃣',t:'Yang kembali ke Makkah',d:'Pengikut Nabi yang kembali ke Makkah dipersilakan bergabung dengan Kaum Quraisy.'},{ic:'4️⃣',t:'Menolak yang ke Madinah',d:'Orang Quraisy yang hendak menjadi pengikut Nabi ke Madinah ditolak.'},{ic:'5️⃣',t:'Suku Arab bebas memilih',d:'Suku-suku Arab bebas memilih bergabung dengan Rasulullah atau Kaum Quraisy.'}];
+const PESAN=[{ic:'🤲',t:'Pesan 1',d:'Berperilaku baik antara satu dengan yang lain.'},{ic:'📿',t:'Pesan 2',d:'Mengerjakan yang diperintahkan Allah dan meninggalkan yang dilarang.'},{ic:'🧰',t:'Pesan 3',d:'Memegang amanat dengan penuh tanggung jawab.'},{ic:'🚫',t:'Pesan 4',d:'Melarang riba, yaitu mengambil tambahan yang tidak adil dari pinjaman.'},{ic:'🕊️',t:'Pesan 5',d:'Menciptakan perdamaian dan tidak ada balas dendam.'},{ic:'⚖️',t:'Pesan 6',d:'Persamaan derajat. Tidak ada yang lebih tinggi kecuali ketakwaannya.'},{ic:'🧡',t:'Pesan 7',d:'Sesungguhnya satu muslim dengan muslim lainnya adalah bersaudara.'}];
+const KISAH=[['🌙 Tanda dari Jibril','Pada akhir Ramadan Rasulullah mengajak umat memperbanyak iktikaf di Masjid Nabawi. Malaikat Jibril memastikan wahyu Allah sudah tersampaikan semuanya. Rasulullah merasa waktunya telah dekat.'],['🐪 Berangkat dari Madinah','Pada bulan Zulkaidah Rasulullah mengumumkan akan berhaji dan memimpin rombongan. Menurut buku, terkumpul 30.000 laki-laki dan perempuan yang berjalan bersama beliau.'],['⛰️ Wukuf & Pidato di Arafah','Para sahabat memperhatikan dengan seksama cara beliau berhaji. Di Arafah beliau berpidato: “Hai manusia, dengarkan baik-baik, karena aku tidak tahu apakah akan bertemu kembali dengan kalian.” Di akhir pidato: “Aku tinggalkan dua petunjuk … Al-Qur’an dan Sunnah.”'],['📖 Wahyu Terakhir','Allah menurunkan Q.S. al-Mā’idah/5: 3: “… Hari ini telah Aku sempurnakan agamamu dan telah Kucukupkan nikmat-Ku bagimu serta telah Ku-ridai Islam itu menjadi agamamu.” Artinya ajaran Islam telah sempurna.'],['💧 Kembali ke Madinah','Setelah haji, Rasulullah kembali ke Madinah dan tak lama kemudian sakit. Beliau wafat pada 12 Rabiul awal tahun 11 Hijriah. Para sahabat sangat berduka.']];
+const HIK=[{ic:'🤝',t:'1. Menepati janji',d:'Allah dan Rasul-Nya mengajarkan agar selalu menepati janji. Janji yang diingkari merugikan diri sendiri dan orang lain.'},{ic:'💗',t:'2. Menebar kasih sayang',d:'Rasulullah tetap menyuapi pengemis buta yang setiap hari mencacinya. Islam ramah dan penuh kasih sayang.'},{ic:'🌱',t:'3. Rendah hati',d:'Pasukan Nabi sangat banyak, tetapi beliau tidak sombong dan tidak pamer. Tetaplah rendah hati meski berilmu dan berprestasi.'},{ic:'🫂',t:'4. Persaudaraan yang kuat',d:'Rasulullah dan sahabat tetap bersaudara dengan penduduk Makkah. Kita juga harus kuat bersaudara dengan teman.'},{ic:'🌙',t:'5. Islam agama yang sempurna',d:'Q.S. al-Mā’idah ayat 3 turun di Arafah sebagai penutup. Al-Qur’an lengkap sebagai petunjuk hidup.'},{ic:'☁️',t:'6. Menambah keyakinan kepada Allah',d:'Kekuasaan Allah di atas segalanya. Apa yang Allah kehendaki cukup dengan “kun fayakūn”.'}];
+const ORDER=['Perjanjian Hudaibiyah disepakati','Kaum Quraisy melanggar perjanjian','Rasulullah memberi tiga usulan penyelesaian damai','Sekitar 10.000 sahabat bersiap berangkat','Pasukan masuk Makkah dari empat penjuru','Bilal mengumandangkan azan di Kakbah','Orang-orang berbondong-bondong masuk Islam'];
+const SORT=[{t:'Memaafkan Hatib bin Abi Baltha’ah yang membocorkan berita',ok:1,fb:'Rasulullah berhati lembut dan pemaaf.'},{t:'Membalas dendam kepada orang Quraisy',ok:0,fb:'Rasulullah memilih damai. Pesannya: tidak ada balas dendam.'},{t:'Masuk Makkah dengan tenang tanpa merusak apa pun',ok:1,fb:'Betul, bahkan rumah penduduk tidak dirusak.'},{t:'Memaksa penduduk Makkah masuk Islam',ok:0,fb:'Penduduk tertarik karena akhlak kaum muslimin, bukan karena paksaan.'},{t:'Tidak menyombongkan pasukan yang sangat banyak',ok:1,fb:'Itulah sikap rendah hati.'},{t:'Memamerkan kekuatan supaya orang takut',ok:0,fb:'Rasulullah tidak menunjukkan kehebatan. Rombongan tetap santun.'},{t:'Mengingatkan agar tidak ada pertikaian dan perang',ok:1,fb:'Pesan Rasulullah di Arafah mengajak hidup berdampingan.'},{t:'Merasa paling tinggi derajatnya',ok:0,fb:'Pesan Arafah: tidak ada yang lebih tinggi kecuali ketakwaannya.'}];
+const CLOZE=[['Haji Wada disebut juga haji ',['perpisahan','pertama','kecil'],'perpisahan','.'],['Rasulullah berpidato di padang ',['Arafah','Badar','Uhud'],'Arafah','.'],['Dua petunjuk yang ditinggalkan Rasulullah adalah Al-Qur’an dan ',['Sunnah','Ijma’','sahabat'],'Sunnah','.'],['Haji Wada terjadi pada tahun ke-',['10','6','8'],'10',' Hijriah.'],['Tidak ada yang lebih tinggi derajatnya kecuali karena ',['ketakwaannya','kekayaannya','jabatannya'],'ketakwaannya','.']];
+const PAIRS=[['Menepati janji','Perjanjian Hudaibiyah harus dihormati; mengingkarinya menimbulkan masalah'],['Menebar kasih sayang','Rasulullah menyuapi pengemis buta yang mencacinya'],['Rendah hati','Pasukan sangat banyak, tetapi Rasulullah tidak menyombongkan diri'],['Persaudaraan yang kuat','“Satu muslim dengan muslim lainnya adalah bersaudara”'],['Islam agama yang sempurna','Q.S. al-Mā’idah ayat 3 turun di Arafah'],['Yakin kepada kekuasaan Allah','Allah berkehendak, cukup “kun fayakūn”']];
+const SCEN=[{q:'Kamu berjanji menemani Dina belajar kelompok sore ini. Tiba-tiba Raka mengajakmu main game seru. Apa yang kamu lakukan?',v:'Menepati janji',o:[['Ikut Raka saja, Dina pasti mengerti',0,'Janji yang diingkari bisa mengecewakan Dina, seperti Hudaibiyah yang dilanggar.'],['Menepati janji ke Dina, lalu bilang ke Raka mungkin lain waktu',1,'Tepat! Kamu menepati janji dan tetap sopan kepada Raka.'],['Pura-pura lupa',0,'Pura-pura lupa bukan sikap jujur. Lebih baik menepati janji.']]},{q:'Kamu juara 1 lomba pidato. Teman bertanya bagaimana rahasiamu.',v:'Rendah hati',o:[['Bilang bahwa kamu paling hebat',0,'Itu sombong. Rasulullah tidak memamerkan kekuatan walau pasukannya banyak.'],['Berbagi tips dengan ramah dan mengucap alhamdulillah',1,'Hebat! Kamu rendah hati dan bersyukur.'],['Diam dan pergi',0,'Berbagi ilmu dengan ramah lebih baik.']]},{q:'Teman tidak sengaja menumpahkan minumanmu, lalu minta maaf sambil hampir menangis.',v:'Memaafkan',o:[['Marah dan tidak mau berteman lagi',0,'Rasulullah memaafkan, bahkan Hatib yang membocorkan berita.'],['Memaafkan dan membantunya membersihkan',1,'Indah sekali! Kamu pemaaf dan menjaga persaudaraan.'],['Membalas menumpahkan minumannya',0,'Pesan Arafah: tidak ada balas dendam.']]},{q:'Dalam kerja kelompok, pendapatmu berbeda dengan Sari.',v:'Persaudaraan',o:[['Memaksa pendapatmu dipakai',0,'Memaksa bisa merusak persaudaraan.'],['Saling mendengarkan lalu bermusyawarah',1,'Bagus! Perbedaan tidak membuat bermusuhan.'],['Tidak mau berbicara dengan Sari',0,'Muslim dengan muslim lain bersaudara. Selesaikan dengan baik.']]}];
+
+const Q=[
+{id:1,lv:'C1',tp:'Hudaibiyah',t:'mc',q:'Perjanjian Hudaibiyah adalah perjanjian ....',o:['damai antara Kaum Quraisy Makkah dan kaum muslimin Madinah','dagang antara Makkah dan Madinah','pembagian harta perang','persekutuan Madinah dengan suku-suku Arab'],why:'Perjanjian Hudaibiyah (tahun ke-6 H) adalah perjanjian damai: kedua pihak berhenti saling menyerang selama 10 tahun.',hint:'Ingat tempat Rasulullah dihadang saat hendak berhaji.'},
+{id:2,lv:'C2',tp:'Makna Fathu Makkah',t:'mc',fix:1,q:'BENAR atau SALAH: Fathu Makkah terjadi lewat peperangan besar dan banyak korban.',o:['Salah','Benar'],why:'Fathu Makkah adalah terbukanya kota Makkah tanpa pertikaian dan peperangan.',hint:'Ingat judul gambar 5.7: “Damai itu indah”.'},
+{id:3,lv:'C2',tp:'Sebab Fathu Makkah',t:'mc',q:'Salah satu sebab terjadinya Fathu Makkah adalah ....',o:['Kaum Quraisy membantu Bani Bakr menyerang Suku Khuza’ah sehingga melanggar Perjanjian Hudaibiyah','Rasulullah ingin merebut harta penduduk Makkah','Kakbah rusak dan perlu diperbaiki','Penduduk Madinah ingin membalas dendam'],why:'Pelanggaran perjanjian oleh Kaum Quraisy memicu Khuza’ah mengadu kepada Rasulullah.',hint:'Siapa yang mengingkari janji?'},
+{id:4,lv:'C1',tp:'Makna Fathu Makkah',t:'in',q:'Fathu Makkah artinya terbukanya kota ____ bagi kaum muslimin.',acc:['makkah','mekkah','mekah'],why:'Fathu = pembukaan. Fathu Makkah = terbukanya kota Makkah.',hint:'Kota kelahiran Nabi Muhammad saw.'},
+{id:5,lv:'C1',tp:'Peristiwa Fathu Makkah',t:'mc',q:'Siapa yang mengumandangkan azan di puncak Kakbah saat Fathu Makkah?',o:['Bilal bin Rabah','Usman bin Affan','Abu Sufyan','Hatib bin Abi Baltha’ah'],why:'Bilal bin Rabah diperintah Rasulullah azan; itu azan pertama di Makkah.',hint:'Sahabat bersuara merdu, muazin Rasulullah.'},
+{id:6,lv:'C1',tp:'Haji Wada',t:'mc',q:'Haji terakhir Rasulullah disebut juga haji ....',o:['perpisahan','ifrad','tamattu’','pertama'],why:'Haji Wada = haji perpisahan. Tidak ada yang menduga itu perpisahan.',hint:'Wada berarti “selamat tinggal”.'},
+{id:7,lv:'C2',tp:'Teladan Rasulullah',t:'mc',fix:1,q:'BENAR atau SALAH: Rasulullah menghukum Hatib bin Abi Baltha’ah yang membocorkan berita keberangkatan pasukan.',o:['Salah','Benar'],why:'Rasulullah memaafkan Hatib. Beliau berhati lembut dan pemaaf.',hint:'Ingat sifat Rasulullah: lembut dan ....'},
+{id:8,lv:'C1',tp:'Pesan Haji Wada',t:'mc',q:'Dua petunjuk yang ditinggalkan Rasulullah agar umat tidak tersesat adalah ....',o:['Al-Qur’an dan Sunnah','Al-Qur’an dan sahabat','Sunnah dan Ijma’','Sahabat dan keluarga nabi'],why:'Di akhir pidato Arafah beliau berpesan berpegang teguh pada Al-Qur’an dan Sunnah.',hint:'Pegangan utama umat Islam.'},
+{id:9,lv:'C2',tp:'Rendah hati',t:'mc',q:'Rendah hati Rasulullah saat Fathu Makkah terlihat dari ....',o:['tidak sombong walau pasukannya sangat banyak dan tetap santun','memamerkan kekuatan agar dihormati','merasa paling hebat','menolak berbicara dengan penduduk Makkah'],why:'Rasulullah tidak menunjukkan kesombongan dan rombongan tetap santun.',hint:'Rendah hati = tidak sombong.'},
+{id:10,lv:'C1',tp:'Haji Wada',t:'in',q:'Haji Wada terjadi pada tahun ke-____ Hijriah. (isi angka)',acc:['10','sepuluh','ke10'],why:'Fathu Makkah tahun ke-8 H, Haji Wada tahun ke-10 H.',hint:'Lihat rangkuman: setelah tahun ke-8.'},
+{id:11,lv:'C4',tp:'Analisis strategi damai',t:'mc',hots:1,q:'Rasulullah membagi pasukan menjadi empat bagian dari empat penjuru, tetapi tidak memerangi Kaum Quraisy. Mengapa cara ini dipilih?',o:['Agar Quraisy sadar melawan tidak ada gunanya, sehingga darah tidak tertumpah','Agar pasukan bisa menyerang lebih cepat','Agar rumah penduduk bisa dibersihkan','Agar Quraisy tidak melihat pasukan'],why:'Kekuatan besar yang tertib membuat Quraisy tidak mampu melawan, sehingga Makkah terbuka tanpa perang.',hint:'Pikirkan tujuan akhir: Makkah terbuka tanpa pertumpahan darah.'},
+{id:12,lv:'C5',tp:'Menilai sikap',t:'mc',hots:1,q:'Rani membatalkan janji belajar bersama Ayu tanpa kabar karena ada acara seru. Rani berkata, “Ah, ini cuma janji kecil.” Penilaian paling tepat berdasarkan pelajaran Perjanjian Hudaibiyah adalah ....',o:['Rani keliru; janji harus ditepati, dan jika berhalangan ia perlu memberi kabar, meminta maaf, lalu mengatur ulang','Rani benar karena janji kecil boleh dilanggar','Ayu yang salah karena terlalu berharap','Tidak ada yang salah karena Rani sedang senang'],why:'Mengingkari janji merugikan diri sendiri dan orang lain. Jika berhalangan, bersikap jujur dan bertanggung jawab.',hint:'Apa akibat janji yang diingkari?'},
+{id:13,lv:'C5',tp:'Pesan Arafah dalam kehidupan',t:'mc',hots:1,q:'Dimas dan Fikri berselisih soal aturan permainan. Dimas kesal dan ingin membalas Fikri esok hari. Berdasarkan pesan Haji Wada, saran terbaik untuk Dimas adalah ....',o:['Menyelesaikan dengan berbicara baik-baik, memaafkan, dan tidak membalas dendam','Mengajak teman lain menjauhi Fikri','Membalas supaya adil','Diam dan menyimpan dendam'],why:'Pesan Arafah: damai, tidak ada balas dendam, dan sesama muslim bersaudara.',hint:'Kata kunci pesan Arafah: damai dan tidak ada ....'},
+{id:14,lv:'C6',tp:'Mencipta rancangan',t:'mc',hots:1,tan:1,q:'Kelasmu akan membuat poster “Kelas Damai” yang menerapkan pesan Haji Wada. Rancangan paling tepat adalah ....',o:['Poster berisi ajakan saling menghormati, tidak dendam, dan bersaudara, ditambah aksi nyata seperti jadwal piket bersama dan “minta maaf & memaafkan”','Poster berisi daftar siswa yang paling nakal','Poster berisi gambar pasukan besar agar teman takut','Poster hanya berisi nama kelas'],why:'Rancangan terbaik memadukan pesan nilai (damai, bersaudara, tidak dendam) dengan aksi nyata.',hint:'Cari rancangan yang punya pesan DAN tindakan.'},
+{id:15,lv:'C5',tp:'Menilai pernyataan',t:'mc',hots:1,tan:1,q:'Seorang teman berkata, “Fathu Makkah berhasil hanya karena pasukan Rasulullah sangat banyak.” Tanggapan paling tepat adalah ....',o:['Kurang tepat; kemenangan itu pertolongan Allah (Q.S. an-Nasr) dan akhlak damai yang menarik hati penduduk','Tepat; jumlah pasukan satu-satunya penyebab','Tepat; karena Quraisy selalu kalah','Tidak ada hubungannya dengan akhlak'],why:'Q.S. an-Nasr menyebut pertolongan Allah dan kemenangan. Penduduk tertarik pada akhlak kaum muslimin.',hint:'Baca lagi Q.S. an-Nasr/110: 1–3.'}];
+
+/* ===== SCREENS ===== */
+const SCR=[];
+SCR[0]=r=>{r.innerHTML=`<div class="sky hero"><div class="mascot">🐪</div><h1>Jejak Sang Teladan</h1><p>Petualangan <b>Fathu Makkah</b> &amp; <b>Haji Wada</b><br>PAI &amp; Budi Pekerti • Kelas 5 • Bab 5 Meneladani Perjuangan Rasulullah</p></div>
+<div class="card"><h3>Siapa namamu, Sahabat Cilik?</h3><input type="text" id="nm" placeholder="Tulis namamu" maxlength="30" style="width:100%" value="${S.name}">
+<h3 style="margin-top:1rem">Pilih jalur belajarmu</h3><div class="opts" id="md">
+<button class="opt ${S.mode==='bim'?'sel':''}" data-m="bim">🌱 <b>Dibantu</b> – ada petunjuk 💡 di setiap tantangan</button>
+<button class="opt ${S.mode==='reg'?'sel':''}" data-m="reg">🚀 <b>Reguler</b> – belajar sesuai alur</button>
+<button class="opt ${S.mode==='tan'?'sel':''}" data-m="tan">🏆 <b>Tantangan</b> – isi jawaban sendiri &amp; soal ekstra</button></div>
+<p class="mut">Setelah memilih jalur, kamu bisa tetap berganti jalur dengan memulai ulang di akhir.</p>
+<div class="row"><button class="btn gold" id="go">Mulai Petualangan ▶</button></div></div>`;
+ r.querySelectorAll('#md .opt').forEach(b=>b.onclick=()=>{S.mode=b.dataset.m;r.querySelectorAll('#md .opt').forEach(x=>x.classList.toggle('sel',x===b))});
+ $('#go').onclick=()=>{S.name=$('#nm').value.trim()||'Sahabat Cilik';award('start',5,'Selamat datang, '+S.name+'!');badge('mulai');go(1)}};
+
+SCR[1]=r=>{r.innerHTML=`<h2>Cara Bermain</h2><p>Halo, ${S.name}! Ketuk semua kartu untuk tahu cara bermain.</p><div class="grid" id="g"></div><div class="fb info">Setiap kali menyelesaikan tantangan, kamu mendapat ⭐ poin, naik level, dan mengumpulkan 🏅 lencana.</div>`;
+ grid($('#g'),[{ic:'⭐',t:'Poin',d:'Selesaikan tantangan untuk mengumpulkan poin.'},{ic:'🏅',t:'Lencana',d:'Ada 10 lencana. Kumpulkan semuanya!'},{ic:'💡',t:'Petunjuk',d:'Pada jalur Dibantu, ketuk “Butuh petunjuk?”.'},{ic:'▶️',t:'Lanjut',d:'Tekan tombol Lanjut di bawah saat siap.'}],'howto',5,null)};
+
+SCR[2]=r=>{r.innerHTML=`<h2>Target Belajarku</h2><p>Ketuk setiap target. Setelah membaca, kamu siap!</p><div class="grid" id="g"></div>`;
+ grid($('#g'),[{ic:'🌙',t:'Aku yakin',d:'Meyakini peristiwa Fathu Makkah dan Haji Wada dengan benar.'},{ic:'📖',t:'Aku paham artinya',d:'Menjelaskan pengertian Fathu Makkah dan Haji Wada.'},{ic:'🔎',t:'Aku tahu sebabnya',d:'Menjelaskan sebab terjadinya Fathu Makkah.'},{ic:'💎',t:'Aku menentukan teladan',d:'Menentukan perilaku mulia Rasulullah saw. dalam kedua peristiwa.'},{ic:'🌟',t:'Aku menemukan akhlak terpuji',d:'Menemukan perilaku terpuji dalam kedua peristiwa.'},{ic:'🏡',t:'Aku mempraktikkan',d:'Menghubungkan kedua peristiwa dengan perilaku terpuji sehari-hari.'}],'goals',10)};
+
+SCR[3]=r=>{r.innerHTML=`<h2>Ayo Mengamati</h2><div class="card"><p class="mut">Ayo Tadarus dulu: bacalah Al-Qur’an dengan tartil, lalu mulai belajar. <b>بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</b></p></div>
+<p>Ketuk dua gambar ini.</p><div class="two"><button class="tile" id="s1"><span class="ic">🕋</span><b>Kota Makkah</b><span class="d" hidden>Apa yang kamu pikirkan tentang gambar ini? Apa kesanmu?</span></button><button class="tile" id="s2"><span class="ic">🤲⛰️</span><b>Wukuf di Arafah</b><span class="d" hidden>Ceritakan pengalaman atau yang kamu ketahui tentang gambar ini!</span></button></div>
+<div class="card"><b>Pertanyaan pemantik:</b> Pernahkah temanmu berjanji padamu tetapi tidak menepatinya? Bagaimana perasaanmu?<div class="opts" id="fe" style="grid-template-columns:repeat(auto-fit,minmax(130px,1fr));margin:.5rem 0"><button class="opt">😢 Sedih</button><button class="opt">😠 Marah</button><button class="opt">😞 Kecewa</button><button class="opt">😐 Biasa saja</button></div><textarea placeholder="Ceritakan pengalamanmu singkat (boleh dikosongkan)…"></textarea></div>
+<div class="fb info">🧩 Teka-teki: Dulu Makkah kota tandus bernama <b>Bakkah</b>. Mengapa kini menjadi kota yang penuh berkah? Temukan jawabannya di Misi 1!</div>`;
+ let n=0;['s1','s2'].forEach(id=>$('#'+id).onclick=function(){if(!this.classList.contains('open')){n++;this.classList.add('open');this.querySelector('.d').hidden=false;if(n==2)award('obs',10,'Pengamat teliti!')}});
+ r.querySelectorAll('#fe .opt').forEach(b=>b.onclick=()=>{r.querySelectorAll('#fe .opt').forEach(x=>x.classList.toggle('sel',x===b));award('feel',5,'Terima kasih sudah berbagi!');toast('Perasaan itu wajar. Ketika janji diingkari, kita merasa tidak nyaman.')})};
+
+SCR[4]=r=>{let k=0;const seen=new Set([0]);
+ function draw(){const s=STEPS[k];r.innerHTML=`<h2>Misi 1: Kisah Istimewa Fathu Makkah</h2><span class="tag">Langkah ${k+1} dari ${STEPS.length}</span><div class="dots">${STEPS.map((_,i)=>`<i class="${i==k?'cur':seen.has(i)?'on':''}"></i>`).join('')}</div>
+ <div class="card"><div style="font-size:2.6rem">${s.ic}</div><h3>${s.t}</h3><p>${s.d}</p><span class="tag">💎 Teladan: ${s.m}</span></div>
+ <div class="row"><button class="btn alt" id="p" ${k==0?'disabled':''}>◀ Sebelumnya</button><button class="btn" id="n">${k==STEPS.length-1?'Selesai ✔':'Berikutnya ▶'}</button></div>
+ <h3 style="margin-top:1.2rem">Isi Perjanjian Hudaibiyah</h3><p class="mut">Ketuk kelima kartu.</p><div class="grid" id="hg"></div>`;
+  grid($('#hg'),HUD,'hud',10);
+  $('#p').onclick=()=>{k--;draw()};
+  $('#n').onclick=()=>{if(k<STEPS.length-1){k++;seen.add(k);draw()}else{if(award('tl',20,'Misi 1 selesai!'))badge('sejarah');toast('Hebat! Lanjutkan ke tantangan berikutnya.')}}}
+ draw()};
+
+SCR[5]=r=>{let pick=[];const pool=sh(ORDER.map((_,i)=>i));
+ function draw(){const done=pick.length===ORDER.length;let fbh='';
+  if(done){const bad=pick.findIndex((v,i)=>v!==i);if(bad<0){fbh=`<div class="fb ok">🎉 Urutannya tepat!<small>Perjanjian dilanggar → Rasulullah menawarkan damai → pasukan bersiap → masuk dengan damai → azan → orang masuk Islam.</small></div>`;if(award('ord',20,'Urutan benar!'))badge('urut')}else fbh=`<div class="fb bad">Urutan ke-${bad+1} belum tepat.<small>Coba pikirkan: apa yang terjadi tepat sebelum “${ORDER[bad]}”? Tekan “Ulangi”.</small></div>`}
+  r.innerHTML=`<h2>Tantangan 1: Urutkan Peristiwa</h2><p>Ketuk kartu sesuai urutan kejadian, dari yang paling awal.</p>${hint('Mulailah dari perjanjian damai tahun ke-6 H. Yang terakhir: orang berbondong-bondong masuk Islam.')}
+  ${ORDER.map((_,i)=>`<div class="slot"><b>${i+1}</b> ${pick[i]!==undefined?ORDER[pick[i]]:'<span class="mut">…</span>'}</div>`).join('')}${fbh}
+  <div class="opts" id="pl">${pool.filter(i=>!pick.includes(i)).map(i=>`<button class="opt" data-i="${i}">${ORDER[i]}</button>`).join('')}</div>
+  <div class="row" style="margin-top:.6rem"><button class="btn alt" id="u" ${pick.length?'':'disabled'}>↩ Hapus terakhir</button><button class="btn alt" id="rs">🔄 Ulangi</button></div>`;
+  r.querySelectorAll('#pl .opt').forEach(b=>b.onclick=()=>{pick.push(+b.dataset.i);draw()});
+  $('#u').onclick=()=>{pick.pop();draw()};$('#rs').onclick=()=>{pick=[];draw()}}
+ draw()};
+
+SCR[6]=r=>{const cards=sh(SORT);let i=0,good=0,ans=false;
+ function draw(){if(i>=cards.length){r.innerHTML=`<h2>Tantangan 2: Pilah Perilaku</h2><div class="fb ok">🎉 Selesai! Benar ${good} dari ${cards.length}.<small>Teladan Rasulullah: pemaaf, damai, rendah hati, santun, dan menghormati sesama.</small></div>`;if(award('sort',20,'Pemilah akhlak!'))badge('akhlak');return}
+  const c=cards[i];ans=false;
+  r.innerHTML=`<h2>Tantangan 2: Pilah Perilaku</h2><p>Seret kartu ke kotak yang tepat, atau ketuk kotaknya. Kartu ${i+1}/${cards.length}</p>${hint('Tanyakan: apakah ini sikap lembut, damai, dan rendah hati?')}
+  <div class="dragc" draggable="true" id="dc">${c.t}</div><div class="buckets"><button class="bucket" data-v="1">✅ Perilaku mulia Rasulullah</button><button class="bucket" data-v="0">❌ Bukan teladan Rasulullah</button></div><div id="fb"></div>`;
+  const dc=$('#dc');dc.ondragstart=e=>e.dataTransfer.setData('text','x');
+  r.querySelectorAll('.bucket').forEach(b=>{b.ondragover=e=>{e.preventDefault();b.classList.add('over')};b.ondragleave=()=>b.classList.remove('over');b.ondrop=e=>{e.preventDefault();b.classList.remove('over');choose(+b.dataset.v)};b.onclick=()=>choose(+b.dataset.v)});
+  function choose(v){if(ans)return;ans=true;const ok=v===c.ok;if(ok)good++;
+   $('#fb').innerHTML=`<div class="fb ${ok?'ok':'bad'}">${ok?'Betul! ✅':'Belum tepat 🤔'}<small>${c.fb}</small></div><button class="btn" id="nx">${i==cards.length-1?'Lihat hasil':'Kartu berikutnya ▶'}</button>`;$('#nx').onclick=()=>{i++;draw()}}}
+ draw()};
+
+SCR[7]=r=>{r.innerHTML=`<h2>Misi 2: Peristiwa Haji Wada</h2><p class="mut">Haji Wada = haji terakhir Rasulullah, disebut juga haji perpisahan (tahun ke-10 H).</p>
+<h3>📖 Kisah Perjalanan</h3>${KISAH.map(k=>`<details class="card" style="padding:.6rem 1rem"><summary><b>${k[0]}</b></summary><p>${k[1]}</p></details>`).join('')}
+<h3>⛰️ Pesan di Arafah</h3><div class="quote">“Hai manusia, dengarkan baik-baik, karena aku tidak tahu apakah akan bertemu kembali dengan kalian.”</div><p>Ketuk ketujuh pesan Rasulullah.</p><div class="grid" id="g"></div>
+<div class="fb info">Ayat Q.S. al-Mā’idah/5: 3 membuat para sahabat terharu karena menandakan ajaran Islam telah sempurna.</div>`;
+ grid($('#g'),PESAN,'arafah',25,'arafah')};
+
+SCR[8]=r=>{const tan=S.mode==='tan';
+ r.innerHTML=`<h2>Tantangan 3: Isi yang Hilang</h2><p>${tan?'Ketik jawabanmu sendiri.':'Pilih jawaban yang tepat.'}</p>${hint('Jawabannya ada di Misi 2: pesan-pesan Arafah.')}<div class="cloze card">${CLOZE.map((c,i)=>`<p>${c[0]}${tan?`<input type="text" size="12" data-i="${i}">`:`<select data-i="${i}"><option value="">— pilih —</option>${sh(c[1]).map(o=>`<option>${o}</option>`).join('')}</select>`}${c[3]}</p>`).join('')}</div><button class="btn" id="ck">Periksa Jawaban</button><div id="fb"></div>`;
+ $('#ck').onclick=()=>{let ok=0;r.querySelectorAll('[data-i]').forEach(e=>{const a=CLOZE[+e.dataset.i][2];const g=norm(e.value)===norm(a);e.classList.remove('ok','bad');e.classList.add(g?'ok':'bad');if(g)ok++});
+  $('#fb').innerHTML=`<div class="fb ${ok==5?'ok':'info'}">Benar ${ok} dari 5.<small>${ok==5?'Luar biasa!':'Yang merah belum tepat. Buka lagi Misi 2, lalu coba lagi.'}</small></div>`;if(ok==5)award('cloze',15,'Sempurna!')}};
+
+SCR[9]=r=>{r.innerHTML=`<h2>Misi 3: Hikmah dalam Kisah</h2><div class="card"><b>📜 Kisah Penyejuk Hati</b><p>Abdullah bin Mas’ud r.a. adalah orang yang pertama berani membaca Al-Qur’an dengan terang-terangan di depan Kakbah. Ia dipukul oleh orang Quraisy, tetapi tetap membaca Al-Qur’an. Begitulah orang yang yakin pada janji Allah dan mencintai Rasulullah.</p><p class="mut">Bagaimana dengan kamu?</p></div>
+<p>Ketuk 6 nilai terpuji dari kisah Fathu Makkah dan Haji Wada.</p><div class="grid" id="g"></div><div class="quote" style="margin-top:.8rem">Pesan moral: orang yang kuat bukanlah yang mampu mengangkat beban berat, tetapi yang tetap ramah meskipun dalam keadaan marah.</div>`;
+ grid($('#g'),HIK,'hik',20)};
+
+SCR[10]=r=>{const L=sh(PAIRS.map((p,i)=>i)),R=sh(PAIRS.map((p,i)=>i));let sl=null,m=new Set(),err=0;
+ function draw(){r.innerHTML=`<h2>Tantangan 4: Cocokkan Nilai &amp; Bukti</h2><p>Ketuk satu nilai di kiri, lalu pasangannya di kanan.</p>${hint('Contoh: “pengemis buta” cocok dengan nilai kasih sayang.')}
+ <div class="two"><div class="opts">${L.map(i=>`<button class="opt ${m.has(i)?'ok done':''} ${sl===i?'sel':''}" data-s="l" data-i="${i}">${PAIRS[i][0]}</button>`).join('')}</div><div class="opts">${R.map(i=>`<button class="opt ${m.has(i)?'ok done':''}" data-s="r" data-i="${i}">${PAIRS[i][1]}</button>`).join('')}</div></div><div id="fb"></div>`;
+ r.querySelectorAll('.opt').forEach(b=>b.onclick=()=>{const i=+b.dataset.i;if(b.dataset.s==='l'){sl=i;draw()}else{if(sl===null){toast('Pilih nilai di kiri dulu');return}
+  if(sl===i){m.add(i);sl=null;draw();if(m.size==PAIRS.length){$('#fb').innerHTML=`<div class="fb ok">🎉 Semua cocok!<small>Salah memilih ${err} kali.</small></div>`;if(award('match',25,'Pemburu hikmah!'))badge('hikmah')}}else{err++;$('#fb').innerHTML=`<div class="fb bad">Belum cocok.<small>Baca lagi kartu di Misi 3, lalu coba pasangan lain.</small></div>`}}})}
+ draw()};
+
+SCR[11]=r=>{let i=0;function draw(){if(i>=SCEN.length){r.innerHTML=`<h2>Ayo Beraksi!</h2><div class="fb ok">Hebat, ${S.name}! Kamu sudah memilih sikap terpuji dalam ${SCEN.length} situasi.<small>Nilai-nilai ini bisa kamu praktikkan hari ini juga.</small></div>`;badge('aksi');return}
+ const s=SCEN[i];r.innerHTML=`<h2>Ayo Beraksi!</h2><span class="tag">Situasi ${i+1}/${SCEN.length} • ${s.v}</span><div class="card"><p>${s.q}</p></div>${hint('Ingat teladan Rasulullah di Fathu Makkah dan Haji Wada.')}<div class="opts" id="o">${s.o.map((o,j)=>`<button class="opt" data-j="${j}">${o[0]}</button>`).join('')}</div><div id="fb"></div>`;
+ r.querySelectorAll('#o .opt').forEach(b=>b.onclick=()=>{const o=s.o[+b.dataset.j];r.querySelectorAll('#o .opt').forEach(x=>x.classList.add('done'));b.classList.remove('done');b.classList.add(o[1]?'ok':'bad');
+  $('#fb').innerHTML=`<div class="fb ${o[1]?'ok':'bad'}">${o[1]?'Pilihan terpuji! ✅':'Pikirkan lagi 🤔'}<small>${o[2]}</small></div><button class="btn" id="nx">${o[1]?'Lanjut ▶':'Coba lagi'}</button>`;if(o[1])award('sc'+i,8);$('#nx').onclick=()=>{if(o[1])i++;draw()}})}
+ draw()};
+
+SCR[12]=r=>{if(!S.qz){const list=Q.filter(q=>!q.tan||S.mode==='tan');S.qz={list:sh(list),i:0,ok:0,log:[]}}
+ const z=S.qz;
+ if(z.i>=z.list.length){const tot=z.list.length,pct=Math.round(z.ok/tot*100),h=z.log.filter(x=>x.h),hok=h.filter(x=>x.ok).length,miss=[...new Set(z.log.filter(x=>!x.ok).map(x=>x.tp))];
+  if(award('quizdone',z.ok*4,'Kuis selesai!')){if(pct>=75)badge('cerdas');if(hok==h.length)badge('kritis')}
+  r.innerHTML=`<h2>Hasil Kuis</h2><div class="card" style="text-align:center"><div style="font-size:3rem">${pct>=75?'🏆':pct>=50?'👍':'🌱'}</div><h3>Skor: ${pct}</h3><p>Benar ${z.ok} dari ${tot} soal • Soal HOTS benar ${hok}/${h.length}</p><div class="fb ${pct>=75?'ok':'info'}">${pct>=75?'Tuntas! Kamu sudah paham dengan baik. Ayo lanjutkan ke rangkuman.':'Belum tuntas (target 75). Tidak apa-apa, ulangi materi yang masih kurang lalu coba lagi.'}${miss.length?`<small>Pelajari lagi: ${miss.join(', ')}</small>`:''}</div><button class="btn alt" id="rt">🔄 Ulangi Kuis</button></div>`;
+  $('#rt').onclick=()=>{S.qz=null;delete S.done.quizdone;SCR[12](r)};return}
+ const q=z.list[z.i];const opts=q.t==='mc'?(q.fix?q.o.slice():sh(q.o)):null;
+ r.innerHTML=`<h2>Kuis Petualang</h2><span class="tag">Soal ${z.i+1}/${z.list.length}</span> <span class="tag">${q.lv}${q.hots?' • HOTS':''}</span><div class="card"><p><b>${q.q}</b></p>${hint(q.hint)}${q.t==='mc'?`<div class="opts" id="o">${opts.map(o=>`<button class="opt">${o}</button>`).join('')}</div>`:`<div class="row"><input type="text" id="in" placeholder="Jawabanmu"><button class="btn" id="cb">Cek</button></div>`}<div id="fb"></div></div>`;
+ function fin(ok,chosen){if(ok)z.ok++;z.log.push({tp:q.tp,ok,h:!!q.hots});
+  $('#fb').innerHTML=`<div class="fb ${ok?'ok':'bad'}">${ok?'Benar! 🎉':'Belum tepat'}<small>${ok?'':`Jawaban yang tepat: <b>${q.t==='mc'?q.o[0]:q.acc[0]}</b>. `}${q.why}</small></div><button class="btn" id="nx">${z.i==z.list.length-1?'Lihat hasil ▶':'Soal berikutnya ▶'}</button>`;$('#nx').onclick=()=>{z.i++;SCR[12](r)}}
+ if(q.t==='mc')r.querySelectorAll('#o .opt').forEach(b=>b.onclick=()=>{const ok=b.textContent===q.o[0];r.querySelectorAll('#o .opt').forEach(x=>{x.classList.add('done');if(x.textContent===q.o[0])x.classList.add('ok')});b.classList.remove('done');b.classList.add(ok?'ok':'bad');fin(ok)});
+ else $('#cb').onclick=()=>{const v=norm($('#in').value);if(!v)return;$('#cb').disabled=true;$('#in').disabled=true;fin(q.acc.some(a=>norm(a)===v))}};
+
+SCR[13]=r=>{r.innerHTML=`<h2>Rangkuman Peta Konsep</h2><p>Ketuk setiap cabang untuk melihat intinya.</p><div class="card" style="text-align:center;background:var(--pri);color:#fff;font-weight:800">🌟 KETELADANAN PERJUANGAN RASULULLAH</div><div class="grid" id="g"></div>`;
+ grid($('#g'),[{ic:'📜',t:'Hudaibiyah (6 H)',d:'Perjanjian damai Quraisy Makkah dan muslimin Madinah.'},{ic:'🕋',t:'Fathu Makkah (8 H)',d:'Terbukanya Makkah tanpa perang dan pertumpahan darah; orang berbondong-bondong masuk Islam.'},{ic:'🤲',t:'Haji Wada (10 H)',d:'Haji perpisahan. Tujuh pesan Rasulullah, Al-Qur’an dan Sunnah, serta Q.S. al-Mā’idah: 3.'},{ic:'💎',t:'Hikmah',d:'Menepati janji, kasih sayang, rendah hati, persaudaraan, Islam sempurna, yakin kepada Allah.'}],'sum',10)};
+
+SCR[14]=r=>{const LK=['Selalu menepati janji','Memberikan maaf kepada orang yang menyakiti','Teman adalah saudaraku','Senang berteman dengan siapa saja','Menolong teman yang terkena musibah'];
+ r.innerHTML=`<h2>Refleksi &amp; Jurnal Belajar</h2><div class="card"><h3>Ayo Mengenal Diri</h3><div class="wrap"><table><tr><th>Pernyataan</th><th>SS</th><th>S</th><th>RR</th><th>TS</th></tr>${LK.map((l,i)=>`<tr><td>${l}</td>${['SS','S','RR','TS'].map(v=>`<td><input type="radio" name="l${i}" value="${v}" aria-label="${v}"></td>`).join('')}</tr>`).join('')}</table></div><p class="mut">SS = Sangat setuju, S = Setuju, RR = Ragu-ragu, TS = Tidak setuju</p></div>
+<div class="card"><h3>Renungkan</h3><p>1. Bagaimana perasaanmu setelah belajar?</p><textarea id="r1"></textarea><p>2. Hubungkan kisah Fathu Makkah/Haji Wada dengan pengalamanmu.</p><textarea id="r2"></textarea><p>3. Apa yang akan kamu lakukan untuk meneladani Nabi Muhammad saw.?</p><div class="row" id="cm"><button class="opt" style="width:auto">Menepati janji</button><button class="opt" style="width:auto">Memaafkan teman</button><button class="opt" style="width:auto">Rendah hati</button><button class="opt" style="width:auto">Menyayangi sesama</button><button class="opt" style="width:auto">Menjaga persaudaraan</button></div><textarea id="r3" placeholder="Tuliskan aksi nyatamu (contoh: Besok aku akan …)"></textarea><button class="btn gold" id="sv" style="margin-top:.6rem">Simpan Jurnal</button><div id="jo"></div></div>`;
+ r.querySelectorAll('#cm .opt').forEach(b=>b.onclick=()=>b.classList.toggle('sel'));
+ $('#sv').onclick=()=>{const c=[...r.querySelectorAll('#cm .sel')].map(x=>x.textContent).join(', ')||'-';S.journal=`Jurnal Belajar ${S.name}\nPerasaan: ${$('#r1').value||'-'}\nHubungan dengan pengalamanku: ${$('#r2').value||'-'}\nKomitmenku: ${c}. ${$('#r3').value}`;
+  $('#jo').innerHTML=`<div class="fb ok" style="white-space:pre-line">${S.journal.replace(/</g,'&lt;')}</div>`;if(award('jr',20,'Jurnal tersimpan!'))badge('refleks')}};
+
+SCR[15]=r=>{const l=lvl(),z=S.qz,pct=z&&z.i>=z.list.length?Math.round(z.ok/z.list.length*100):null;
+ r.innerHTML=`<div class="sky hero"><div class="mascot">🌟</div><h1>Barakallah, ${S.name}!</h1><p>${l[2]} Level: <b>${l[1]}</b> • ⭐ ${S.pts} poin${pct!==null?' • Skor kuis '+pct:''}</p></div>
+<div class="card"><h3>Koleksi Lencanaku</h3><div class="badges">${Object.keys(BADGES).map(k=>`<div class="bd ${S.badges.includes(k)?'on':''}"><span class="e">${BADGES[k][0]}</span><b>${BADGES[k][1]}</b><br><small>${BADGES[k][2]}</small></div>`).join('')}</div></div>
+<div class="quote">Sesungguhnya orang yang kuat bukanlah yang mampu mengangkat beban berat, tetapi yang tetap ramah meskipun dalam keadaan marah.</div>
+<div class="card"><h3>Papan Peringkat Sesi (perangkat ini)</h3><div id="bd"></div><div class="row"><button class="btn gold" id="sb">Simpan ke Papan</button><button class="btn alt" id="nxs">Siswa Berikutnya</button><button class="btn alt" id="pr">🖨️ Cetak</button></div><p class="mut">Papan hanya tersimpan selama halaman terbuka. Cocok untuk kelas yang bergantian memakai satu perangkat.</p></div>
+<div class="fb info">Alhamdulillah! Di akhir pelajaran, mari berdoa dan ucapkan: <b>اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَ</b></div>`;
+ function board(){$('#bd').innerHTML=S.board.length?`<ol>${[...S.board].sort((a,b)=>b.p-a.p).map(b=>`<li>${b.n} – ⭐ ${b.p} (${b.l}${b.q!==null?', kuis '+b.q:''})</li>`).join('')}</ol>`:'<p class="mut">Belum ada data.</p>'}
+ board();$('#sb').onclick=()=>{if(S.saved)return toast('Sudah tersimpan');S.board.push({n:S.name,p:S.pts,l:l[1],q:pct});S.saved=true;board()};
+ $('#nxs').onclick=()=>{Object.assign(S,{name:'',pts:0,badges:[],done:{},qz:null,journal:'',saved:false,i:0});go(0)};$('#pr').onclick=()=>window.print()};
+
+const TITLES=['Selamat Datang','Cara Bermain','Target Belajar','Ayo Mengamati','Misi 1','Urutkan Peristiwa','Pilah Perilaku','Misi 2','Isi yang Hilang','Misi 3','Cocokkan Nilai','Ayo Beraksi','Kuis','Rangkuman','Refleksi','Penutup'];
+function go(n){S.i=Math.max(0,Math.min(SCR.length-1,n));const r=$('#stage');SCR[S.i](r);$('#navt').textContent=(S.i+1)+'/'+SCR.length+' • '+TITLES[S.i];$('#prev').disabled=S.i==0;$('#next').disabled=S.i==SCR.length-1;$('#nav').style.display=S.i==0?'none':'flex';upd();window.scrollTo({top:0,behavior:'smooth'})}
+$('#prev').onclick=()=>go(S.i-1);$('#next').onclick=()=>go(S.i+1);
+let fs=17;$('#fs+').onclick=()=>{fs=Math.min(24,fs+1);document.documentElement.style.fontSize=fs+'px'};$('#fs-').onclick=()=>{fs=Math.max(14,fs-1);document.documentElement.style.fontSize=fs+'px'};
+
+/* ===== PANEL GURU ===== */
+function teacher(){
+ const dpl=[['1 Keimanan & Ketakwaan','Meyakini janji Allah; kisah Ibnu Mas’ud; Q.S. an-Nasr & al-Mā’idah:3; berdoa','Mengungkapkan keyakinan & memilih sikap terpuji'],['2 Kewargaan','Menghargai perbedaan di “nusantara”; Kelas Damai','Memilih sikap menghargai perbedaan'],['3 Penalaran Kritis','Urutkan peristiwa; sebab-akibat; soal HOTS C4–C5','Menjelaskan alasan jawaban'],['4 Kreativitas','Soal C6 poster “Kelas Damai”; komitmen aksi','Menghasilkan ide aksi nyata'],['5 Kolaborasi','Diskusi kelompok (Aktivitas Kelompok buku) berpasangan di perangkat','Bekerja sama saling mengoreksi'],['6 Kemandirian','Jalur belajar pilihan; jurnal; ulang kuis','Mengatur proses belajar sendiri'],['7 Kesehatan','Kesehatan mental: memaafkan, tidak dendam, mengelola marah','Menyebut cara mengelola marah'],['8 Komunikasi','Bercerita pengalaman; jurnal; presentasi hasil diskusi','Menyampaikan pendapat lisan/tulis']];
+ const kunci=Q.map(q=>`<tr><td>${q.id}</td><td>${q.lv}${q.hots?' HOTS':''}</td><td>${q.q}</td><td>${q.t==='mc'?q.o[0]:q.acc[0]}</td><td>${q.why}</td></tr>`).join('');
+ const sb=['Pembuka','Petunjuk','Target','Apersepsi','Misi 1 linimasa','Urutkan','Pilah (drag & drop)','Misi 2 hotspot','Cloze','Misi 3','Cocokkan','Skenario','Kuis','Rangkuman','Refleksi','Penutup'];
+ const sbd=['Maskot unta, nama, pilih jalur|Isi nama, pilih jalur|Mulai','4 kartu ikon|Ketuk kartu|Lanjut','6 kartu target|Ketuk kartu|Lanjut','Dua gambar + pertanyaan pemantik|Ketuk, pilih emosi, tulis|Lanjut','Linimasa 8 langkah + 5 isi perjanjian|Next/prev, ketuk|Lanjut','7 kartu peristiwa|Ketuk berurutan|Lanjut','Kartu satu per satu|Seret/ketuk kotak|Lanjut','Akordeon 5 kisah + 7 hotspot pesan|Buka & ketuk|Lanjut','5 kalimat rumpang|Dropdown/isian|Periksa','Kisah Ibnu Mas’ud + 6 kartu nilai|Ketuk kartu|Lanjut','2 kolom|Ketuk pasangan|Lanjut','4 situasi|Pilih tindakan|Lanjut','13–15 soal acak|MC/benar-salah/isian|Skor otomatis','Peta konsep 4 cabang|Ketuk|Lanjut','Skala SS–TS + 3 pertanyaan + jurnal|Radio, tulis, pilih|Simpan','Lencana, papan peringkat|Simpan/cetak/siswa berikutnya|-'];
+ return `<div class="tabs" id="tb"><button class="on" data-t="0">Identitas & Analisis</button><button data-t="1">Alur & Storyboard</button><button data-t="2">Asesmen</button><button data-t="3">Diferensiasi & Panduan</button></div>
+<div class="tp on"><h3>1. Identitas Media</h3><ul><li><b>Judul:</b> Jejak Sang Teladan: Petualangan Fathu Makkah & Haji Wada</li><li>SD • Pendidikan Agama Islam dan Budi Pekerti • Kelas 5 / Fase C • 3 × 35 menit [ASUMSI: 3 JP, bisa dibagi 3 pertemuan: JP1 layar 1–7 Fathu Makkah; JP2 layar 8–12 Haji Wada & hikmah; JP3 layar 13–16 kuis, rangkuman, refleksi]</li><li><b>Pengguna:</b> siswa (berpasangan/mandiri) dengan pendampingan guru.</li><li><b>Platform:</b> satu file HTML (buka di browser Chrome/Edge/Safari). Tanpa instalasi. Tautan perlu internet; file dapat diunduh untuk dipakai offline. Tools pengembangan lanjutan: H5P, Canva, Google Slides interaktif.</li><li><b>Prasyarat teknis:</b> 1 perangkat per 1–3 siswa; layar ≥ 5 inci; proyektor untuk klasikal.</li></ul>
+<h3>2. Analisis Pembelajaran</h3><div class="wrap"><table><tr><th>Tujuan</th><th>Indikator terukur</th><th>Layar</th><th>Bloom</th></tr><tr><td>1 Meyakini peristiwa</td><td>Menyatakan keyakinan melalui refleksi/jurnal; mengaitkan dengan kuasa Allah</td><td>10,15</td><td>C2 / A3</td></tr><tr><td>2 Pengertian</td><td>Menyebut arti Fathu Makkah & Haji Wada</td><td>5,8,13</td><td>C1–C2</td></tr><tr><td>3 Sebab</td><td>Menjelaskan pelanggaran Hudaibiyah sebagai sebab</td><td>5,6,13</td><td>C2</td></tr><tr><td>4 Perilaku mulia Rasulullah</td><td>Memilah 8 perilaku dengan benar</td><td>7</td><td>C3</td></tr><tr><td>5 Perilaku terpuji</td><td>Menyebut 6 nilai dari kisah</td><td>10,11</td><td>C2–C4</td></tr><tr><td>6 Menghubungkan ke keseharian</td><td>Memilih tindakan pada 4 situasi; menulis komitmen</td><td>12,15</td><td>C3–C6</td></tr></table></div>
+<p><b>Kompetensi:</b> pengetahuan (sejarah & nilai), keterampilan (menganalisis, memilih sikap, menyusun komitmen), sikap (menepati janji, pemaaf, rendah hati, persaudaraan). <b>Prasyarat:</b> mengenal Nabi Muhammad saw., Makkah-Madinah, dan konsep janji.</p>
+<h3>Integrasi 8 Dimensi Profil Lulusan</h3><div class="wrap"><table><tr><th>Dimensi</th><th>Aktivitas</th><th>Indikator</th></tr>${dpl.map(d=>`<tr><td>${d[0]}</td><td>${d[1]}</td><td>${d[2]}</td></tr>`).join('')}</table></div><p>Dimensi paling dominan: Keimanan, Penalaran Kritis, Kolaborasi, Komunikasi. <b>Karakter:</b> jujur, amanah, pemaaf, rendah hati, cinta damai, peduli.</p>
+<h3>Konsep & Desain</h3><ul><li>Tema petualangan unta “Sobat” menyusuri jejak Rasulullah, warna biru langit & emas senada buku, huruf besar mudah dibaca, tombol ≥ 46 px, tombol A−/A+, mode gelap otomatis.</li><li><b>Deep Learning:</b> Memahami (apersepsi, linimasa) → Mengaplikasikan (pilah, skenario) → Merefleksikan (jurnal & komitmen); pengalaman belajar bermakna, menyenangkan, berkesadaran.</li><li>Inklusivitas: teks alternatif sederhana, tidak bergantung warna saja, tombol besar, tanpa audio wajib. Guru dapat membacakan teks untuk siswa yang butuh bantuan.</li></ul>
+<h3>Konten Akurat, Miskonsepsi & Glosarium</h3><ul><li><b>Miskonsepsi 1:</b> “Fathu Makkah berarti perang besar.” → Penaklukan tanpa pertikaian (Layar 5, 13).</li><li><b>2:</b> “Orang masuk Islam karena dipaksa.” → Karena akhlak damai (Layar 7).</li><li><b>3:</b> “Janji kecil boleh diingkari.” → Soal HOTS 12 & skenario 1.</li><li><b>4:</b> “Haji Wada hanya soal ritual haji.” → Fokus pada pesan nilai persaudaraan, damai, dan amanah.</li><li><b>Glosarium:</b> Fathu = pembukaan; Wada = perpisahan; Hudaibiyah = tempat perjanjian; Muhajirin = yang hijrah ke Madinah; Wukuf = berdiam di Arafah; Iktikaf = berdiam di masjid untuk beribadah; Riba = tambahan tidak adil dari pinjaman; Kun fayakūn = “jadilah, maka jadilah”.</li><li><b>Catatan akurasi:</b> Isi mengikuti buku siswa. Jumlah peserta Haji Wada dalam buku 30.000; sumber lain menyebut jumlah lebih banyak, sehingga guru dapat menyampaikan bahwa angka riwayat bervariasi. Isi Perjanjian Hudaibiyah di buku disajikan ringkas; guru dapat memperkaya dari sumber terpercaya.</li></ul></div>
+<div class="tp"><h3>Storyboard per Layar</h3><div class="wrap"><table><tr><th>No</th><th>Layar</th><th>Visual & teks</th><th>Interaksi</th><th>Navigasi</th></tr>${sb.map((s,i)=>{const p=sbd[i].split('|');return `<tr><td>${i+1}</td><td>${s}</td><td>${p[0]}</td><td>${p[1]}</td><td>${p[2]}</td></tr>`}).join('')}</table></div><p><b>Wireframe umum:</b> bilah atas (poin, level, A−/A+, Guru, progres) → konten tengah (kartu) → bilah bawah (Kembali | n/16 | Lanjut). <b>Aset yang disarankan:</b> ilustrasi vektor unta, Kakbah, Arafah (buat di Canva; bebas hak cipta), PNG/SVG ≤ 200 KB; hindari menggambarkan wajah Nabi.</p>
+<h3>Alur Pembelajaran (a–k)</h3><p>a Pembuka (1) • b Petunjuk (2) • c Tujuan (3) • d Apersepsi (4) • e Eksplorasi (5, 8, 10) • f Aktivitas interaktif: urut, drag & drop, cloze, cocok, skenario (6, 7, 9, 11, 12) • g Kuis (13) • h Umpan balik spesifik tiap jawaban • i Rangkuman (14) • j Refleksi (15) • k Penutup & penghargaan (16).</p></div>
+<div class="tp"><h3>Kunci & Pembahasan Kuis (soal diacak; 13 soal, +2 untuk jalur Tantangan)</h3><div class="wrap"><table><tr><th>No</th><th>Level</th><th>Soal</th><th>Kunci</th><th>Pembahasan</th></tr>${kunci}</table></div>
+<h3>Uraian (dari buku, dikerjakan di buku/jurnal)</h3><ol><li>Makna Fathu Makkah: terbukanya Makkah bagi muslimin tanpa pertikaian dan peperangan.</li><li>Alasan berbondong-bondong masuk Islam: masuk dengan damai, menghormati, memaafkan; kekhawatiran perang tidak terbukti; tertarik akhlak.</li><li>Keinginan mengunjungi Makkah: kota kelahiran Nabi, ada Masjidil Haram & Kakbah (kiblat), air zam-zam, tempat haji/umrah.</li><li>Perilaku terpuji yang dipraktikkan: menepati janji, kasih sayang, rendah hati, persaudaraan, dll. disertai contoh nyata.</li><li>Hikmah Haji Wada: berperilaku baik, amanah, damai tanpa dendam, persamaan derajat, persaudaraan, berpegang Al-Qur’an & Sunnah.</li></ol>
+<div class="wrap"><table><tr><th>Skor</th><th>Kriteria (tiap soal uraian)</th></tr><tr><td>4</td><td>Jawaban benar, lengkap, ada alasan/contoh, bahasa runtut</td></tr><tr><td>3</td><td>Benar tetapi kurang lengkap atau tanpa contoh</td></tr><tr><td>2</td><td>Sebagian benar atau kurang relevan</td></tr><tr><td>1</td><td>Salah/tidak sesuai</td></tr></table></div><p>Nilai uraian = jumlah skor ÷ 20 × 100.</p>
+<h3>Sistem Skor & Ketuntasan</h3><ul><li>Kuis otomatis: skor = benar ÷ jumlah soal × 100. KKTP [ASUMSI] ≥ 75.</li><li>Usulan nilai akhir: kuis 50% + uraian/jurnal 30% + aktivitas (poin) 20%.</li><li><b>Remedial</b> (&lt; 75): ulangi Misi sesuai topik yang ditampilkan di hasil kuis, kerjakan kuis ulang, wawancara singkat.</li><li><b>Pengayaan</b> (≥ 75): jalur Tantangan (soal C5–C6), membuat poster/cerita “Kelas Damai”, mengajar teman.</li></ul></div>
+<div class="tp"><h3>Diferensiasi 3 Jalur</h3><ul><li><b>Dibantu (scaffolding):</b> petunjuk 💡, pilihan jawaban pada cloze, guru mendampingi membaca.</li><li><b>Reguler:</b> alur standar.</li><li><b>Tantangan:</b> cloze isian bebas + 2 soal tambahan (C5–C6) + proyek poster.</li></ul>
+<h3>Gamifikasi</h3><ul><li>Poin: tiap tantangan 5–25, kuis 4/soal benar. Level: Pengamat Cilik (0) → Penjelajah Sejarah (40) → Pejuang Cilik (100) → Duta Damai (170) → Teladan Sejati (240).</li><li>10 lencana; misi/tantangan; papan peringkat sesi di perangkat yang sama. Gunakan papan secara bijak agar siswa tidak membandingkan diri secara negatif; tekankan kemajuan pribadi.</li></ul>
+<h3>Panduan Guru</h3><ul><li><b>Peran:</b> fasilitator, pendamping, penguat nilai. Jangan membiarkan siswa melewati bagian teks tanpa membaca.</li><li><b>Pertanyaan pemantik:</b> “Bagaimana rasanya jika janji diingkari?”, “Mengapa Rasulullah memaafkan Hatib?”, “Apa bedanya kuat dan marah?”, “Bagaimana kita menjaga persaudaraan walau berbeda pendapat?”</li><li><b>Alur:</b> JP1 layar 1–7 (pantik 5′, tantangan 25′, ringkas 5′); JP2 layar 8–12; JP3 layar 13–16. Dapat juga dipakai klasikal lewat proyektor dengan siswa bergantian menjawab.</li><li><b>Tips teknis:</b> uji tautan sebelum kelas; progres tidak tersimpan jika halaman ditutup; gunakan “Siswa Berikutnya” saat berbagi perangkat; huruf dapat diperbesar.</li><li><b>Tindak lanjut:</b> lihat topik yang ditampilkan di hasil kuis dan di papan; bentuk kelompok remedial/pengayaan; bacakan jurnal pilihan sebagai penguatan.</li></ul>
+<h3>Panduan Siswa</h3><p>1) Tulis nama dan pilih jalur. 2) Baca dengan teliti, ketuk semua kartu. 3) Kerjakan tantangan; baca umpan balik. 4) Jika bingung, tekan 💡 atau tanya guru. 5) Isi jurnal dengan jujur dan lakukan komitmenmu!</p>
+<h3>Penutup</h3><ul><li><b>Pengembangan lanjutan:</b> rekaman audio bacaan ayat dan doa, ilustrasi animasi, rekap otomatis ke Google Sheets, kuis kelompok.</li><li><b>Ide variasi:</b> proyek kolaboratif “Duta Damai Kelas”: kelompok membuat komik atau video 1 menit tentang penerapan pesan Haji Wada, dinilai dengan rubrik.</li><li><b>Tools gratis:</b> H5P, Canva, Google Slides/Forms, Wordwall, LearningApps, Genially (versi gratis).</li></ul></div>`}
+$('#tbody').innerHTML=teacher();
+$('#tb').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;document.querySelectorAll('#tb button').forEach(x=>x.classList.toggle('on',x===b));document.querySelectorAll('.tp').forEach((p,i)=>p.classList.toggle('on',i==+b.dataset.t))});
+$('#tbtn').onclick=()=>{$('#tm').hidden=false};$('#tclose').onclick=()=>{$('#tm').hidden=true};
+go(0);
+</script>
+</body>
+</html>
